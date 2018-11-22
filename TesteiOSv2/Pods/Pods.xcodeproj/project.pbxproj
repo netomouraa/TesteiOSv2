@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 46;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -50,18 +50,18 @@
 		81D77685DD49FCD1A1C4ECD3E62DE319 /* Pods-TesteiOSv2-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TesteiOSv2-Info.plist"; sourceTree = "<group>"; };
 		96D173B2498E2094C8D7D788BC656A36 /* Pods-TesteiOSv2Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TesteiOSv2Tests.release.xcconfig"; sourceTree = "<group>"; };
 		9E259FE253EF00836622873D95ED2D5A /* Pods-TesteiOSv2UITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TesteiOSv2UITests.modulemap"; sourceTree = "<group>"; };
-		AE620BB4F0C293B10ED6B1597E2AF37A /* Pods_TesteiOSv2Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TesteiOSv2Tests.framework; path = "Pods-TesteiOSv2Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE620BB4F0C293B10ED6B1597E2AF37A /* Pods_TesteiOSv2Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TesteiOSv2Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AEEAF77BBCC3970E87F7B27C8DB0530F /* Pods-TesteiOSv2UITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TesteiOSv2UITests-dummy.m"; sourceTree = "<group>"; };
 		B06876C71C5E28D12C61921DD02F1723 /* Pods-TesteiOSv2Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TesteiOSv2Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		B36AB396275697EEE1A5B13BA8A38FE3 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B36AB396275697EEE1A5B13BA8A38FE3 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		B41935F0BB87D10C83E8C58CF9A94154 /* Pods-TesteiOSv2UITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TesteiOSv2UITests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		B637D33832E43C144AC82C6F7419FD3D /* Pods-TesteiOSv2UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TesteiOSv2UITests.release.xcconfig"; sourceTree = "<group>"; };
 		D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		DBCDBF9DCC735517FD67D703F3A88BE7 /* Pods-TesteiOSv2Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TesteiOSv2Tests-Info.plist"; sourceTree = "<group>"; };
 		DF2F14872430A4AA6EE6A5785403A5ED /* Pods-TesteiOSv2UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TesteiOSv2UITests.debug.xcconfig"; sourceTree = "<group>"; };
-		E020520F3B88196B24C803BCACFC4264 /* Pods_TesteiOSv2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TesteiOSv2.framework; path = "Pods-TesteiOSv2.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E020520F3B88196B24C803BCACFC4264 /* Pods_TesteiOSv2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TesteiOSv2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1DA37482FD179430A966B9DD2D7BFA2 /* Pods-TesteiOSv2Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TesteiOSv2Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		ECE39076155821FEA2BB46DDEDE9A3E5 /* Pods_TesteiOSv2UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TesteiOSv2UITests.framework; path = "Pods-TesteiOSv2UITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECE39076155821FEA2BB46DDEDE9A3E5 /* Pods_TesteiOSv2UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TesteiOSv2UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF732BF2BE58513ED0174DFADF13599E /* Pods-TesteiOSv2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TesteiOSv2.debug.xcconfig"; sourceTree = "<group>"; };
 		FBB1E73CDE223121FC2E74726993F622 /* Pods-TesteiOSv2-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TesteiOSv2-umbrella.h"; sourceTree = "<group>"; };
 		FC24824F93781BEB70A0BD33904C0FFE /* Pods-TesteiOSv2UITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TesteiOSv2UITests-umbrella.h"; sourceTree = "<group>"; };
@@ -282,7 +282,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0930;
-				LastUpgradeCheck = 0930;
+				LastUpgradeCheck = 1000;
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -375,7 +375,6 @@
 			baseConfigurationReference = B637D33832E43C144AC82C6F7419FD3D /* Pods-TesteiOSv2UITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -389,11 +388,7 @@
 				INFOPLIST_FILE = "Target Support Files/Pods-TesteiOSv2UITests/Pods-TesteiOSv2UITests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-TesteiOSv2UITests/Pods-TesteiOSv2UITests.modulemap";
 				OTHER_LDFLAGS = "";
@@ -479,7 +474,6 @@
 			baseConfigurationReference = 96D173B2498E2094C8D7D788BC656A36 /* Pods-TesteiOSv2Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -493,11 +487,7 @@
 				INFOPLIST_FILE = "Target Support Files/Pods-TesteiOSv2Tests/Pods-TesteiOSv2Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-TesteiOSv2Tests/Pods-TesteiOSv2Tests.modulemap";
 				OTHER_LDFLAGS = "";
@@ -567,8 +557,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 4.2;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -579,7 +568,6 @@
 			baseConfigurationReference = E1DA37482FD179430A966B9DD2D7BFA2 /* Pods-TesteiOSv2Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -593,11 +581,7 @@
 				INFOPLIST_FILE = "Target Support Files/Pods-TesteiOSv2Tests/Pods-TesteiOSv2Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-TesteiOSv2Tests/Pods-TesteiOSv2Tests.modulemap";
 				OTHER_LDFLAGS = "";
@@ -618,7 +602,6 @@
 			baseConfigurationReference = DF2F14872430A4AA6EE6A5785403A5ED /* Pods-TesteiOSv2UITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -632,11 +615,7 @@
 				INFOPLIST_FILE = "Target Support Files/Pods-TesteiOSv2UITests/Pods-TesteiOSv2UITests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-TesteiOSv2UITests/Pods-TesteiOSv2UITests.modulemap";
 				OTHER_LDFLAGS = "";
@@ -657,7 +636,6 @@
 			baseConfigurationReference = EF732BF2BE58513ED0174DFADF13599E /* Pods-TesteiOSv2.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -671,11 +649,7 @@
 				INFOPLIST_FILE = "Target Support Files/Pods-TesteiOSv2/Pods-TesteiOSv2-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-TesteiOSv2/Pods-TesteiOSv2.modulemap";
 				OTHER_LDFLAGS = "";
@@ -696,7 +670,6 @@
 			baseConfigurationReference = 354BAFE8D55F3433041666A98FA9FEBD /* Pods-TesteiOSv2.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -710,11 +683,7 @@
 				INFOPLIST_FILE = "Target Support Files/Pods-TesteiOSv2/Pods-TesteiOSv2-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-TesteiOSv2/Pods-TesteiOSv2.modulemap";
 				OTHER_LDFLAGS = "";
