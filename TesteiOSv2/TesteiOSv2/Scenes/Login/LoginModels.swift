@@ -6,4 +6,23 @@
 //  Copyright © 2018 netomoura. All rights reserved.
 //
 
-import Foundation
+
+import UIKit
+
+enum Login
+{
+    // MARK: Use cases
+    
+    enum Something
+    {
+        struct Request
+        {
+        }
+        struct Response
+        {
+        }
+        struct ViewModel
+        {
+        }
+    }
+}

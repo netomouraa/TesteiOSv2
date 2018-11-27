@@ -6,4 +6,12 @@
 //  Copyright © 2018 netomoura. All rights reserved.
 //
 
-import Foundation
+
+import UIKit
+
+class LoginWorker
+{
+    func doSomeWork()
+    {
+    }
+}
