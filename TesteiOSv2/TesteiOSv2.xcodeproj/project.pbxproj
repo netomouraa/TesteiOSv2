@@ -11,10 +11,15 @@
 		59BC752668518E886F8F64D2 /* Pods_TesteiOSv2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94699AB6915B65217BC9C1B3 /* Pods_TesteiOSv2.framework */; };
 		971FB81B21A6208000609AF7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 971FB81A21A6208000609AF7 /* AppDelegate.swift */; };
 		971FB82021A6208000609AF7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 971FB81E21A6208000609AF7 /* Main.storyboard */; };
-		971FB82221A6208200609AF7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 971FB82121A6208200609AF7 /* Assets.xcassets */; };
 		971FB82521A6208200609AF7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 971FB82321A6208200609AF7 /* LaunchScreen.storyboard */; };
 		971FB83021A6208200609AF7 /* TesteiOSv2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 971FB82F21A6208200609AF7 /* TesteiOSv2Tests.swift */; };
 		971FB83B21A6208200609AF7 /* TesteiOSv2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 971FB83A21A6208200609AF7 /* TesteiOSv2UITests.swift */; };
+		977058D521ADB49E0006A5C6 /* StatementViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 977058D421ADB49E0006A5C6 /* StatementViewController.swift */; };
+		977058D721ADB4B90006A5C6 /* StatementInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 977058D621ADB4B90006A5C6 /* StatementInteractor.swift */; };
+		977058D921ADB4C30006A5C6 /* StatementModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 977058D821ADB4C30006A5C6 /* StatementModels.swift */; };
+		977058DB21ADB4CD0006A5C6 /* StatementPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 977058DA21ADB4CD0006A5C6 /* StatementPresenter.swift */; };
+		977058DD21ADB4D50006A5C6 /* StatementRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 977058DC21ADB4D50006A5C6 /* StatementRouter.swift */; };
+		977058DF21ADB4E10006A5C6 /* StatementWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 977058DE21ADB4E10006A5C6 /* StatementWorker.swift */; };
 		97BDB52421A72AAC003AB2D4 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97BDB52321A72AAC003AB2D4 /* LoginViewController.swift */; };
 		97BDB52621A72AED003AB2D4 /* LoginInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97BDB52521A72AED003AB2D4 /* LoginInteractor.swift */; };
 		97BDB52821A72AFE003AB2D4 /* LoginModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97BDB52721A72AFE003AB2D4 /* LoginModels.swift */; };
@@ -24,6 +29,7 @@
 		97BDB53021A72C11003AB2D4 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97BDB52F21A72C11003AB2D4 /* User.swift */; };
 		97BDB53221A72CCA003AB2D4 /* ServiceAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97BDB53121A72CCA003AB2D4 /* ServiceAPI.swift */; };
 		97BDB53821A7306B003AB2D4 /* ServiceWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97BDB53721A7306B003AB2D4 /* ServiceWorker.swift */; };
+		97BDB53D21A73C70003AB2D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97BDB53C21A73C70003AB2D4 /* Assets.xcassets */; };
 		9B36FC333E32DFF04906BB7E /* Pods_TesteiOSv2Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10880E1AA69E4691807529CD /* Pods_TesteiOSv2Tests.framework */; };
 /* End PBXBuildFile section */
 
@@ -52,7 +58,6 @@
 		971FB81721A6208000609AF7 /* TesteiOSv2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TesteiOSv2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		971FB81A21A6208000609AF7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		971FB81F21A6208000609AF7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		971FB82121A6208200609AF7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		971FB82421A6208200609AF7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		971FB82621A6208200609AF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		971FB82B21A6208200609AF7 /* TesteiOSv2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TesteiOSv2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -61,6 +66,12 @@
 		971FB83621A6208200609AF7 /* TesteiOSv2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TesteiOSv2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		971FB83A21A6208200609AF7 /* TesteiOSv2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TesteiOSv2UITests.swift; sourceTree = "<group>"; };
 		971FB83C21A6208200609AF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		977058D421ADB49E0006A5C6 /* StatementViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatementViewController.swift; sourceTree = "<group>"; };
+		977058D621ADB4B90006A5C6 /* StatementInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatementInteractor.swift; sourceTree = "<group>"; };
+		977058D821ADB4C30006A5C6 /* StatementModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatementModels.swift; sourceTree = "<group>"; };
+		977058DA21ADB4CD0006A5C6 /* StatementPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatementPresenter.swift; sourceTree = "<group>"; };
+		977058DC21ADB4D50006A5C6 /* StatementRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatementRouter.swift; sourceTree = "<group>"; };
+		977058DE21ADB4E10006A5C6 /* StatementWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatementWorker.swift; sourceTree = "<group>"; };
 		97BDB52321A72AAC003AB2D4 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		97BDB52521A72AED003AB2D4 /* LoginInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginInteractor.swift; sourceTree = "<group>"; };
 		97BDB52721A72AFE003AB2D4 /* LoginModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginModels.swift; sourceTree = "<group>"; };
@@ -70,6 +81,7 @@
 		97BDB52F21A72C11003AB2D4 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		97BDB53121A72CCA003AB2D4 /* ServiceAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceAPI.swift; sourceTree = "<group>"; };
 		97BDB53721A7306B003AB2D4 /* ServiceWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceWorker.swift; sourceTree = "<group>"; };
+		97BDB53C21A73C70003AB2D4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ADFAB270733F01BF4FC1644F /* Pods-TesteiOSv2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TesteiOSv2.debug.xcconfig"; path = "Target Support Files/Pods-TesteiOSv2/Pods-TesteiOSv2.debug.xcconfig"; sourceTree = "<group>"; };
 		CA74A89C95B6ABB207ADDA91 /* Pods-TesteiOSv2Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TesteiOSv2Tests.release.xcconfig"; path = "Target Support Files/Pods-TesteiOSv2Tests/Pods-TesteiOSv2Tests.release.xcconfig"; sourceTree = "<group>"; };
 		CCDA965A340ED83DF28C4B53 /* Pods-TesteiOSv2UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TesteiOSv2UITests.release.xcconfig"; path = "Target Support Files/Pods-TesteiOSv2UITests/Pods-TesteiOSv2UITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -145,9 +157,9 @@
 				97BDB51B21A725E2003AB2D4 /* Models */,
 				97BDB51E21A72610003AB2D4 /* Scenes */,
 				971FB81E21A6208000609AF7 /* Main.storyboard */,
-				971FB82121A6208200609AF7 /* Assets.xcassets */,
 				971FB82321A6208200609AF7 /* LaunchScreen.storyboard */,
 				971FB82621A6208200609AF7 /* Info.plist */,
+				97BDB53C21A73C70003AB2D4 /* Assets.xcassets */,
 				97BDB52021A7267E003AB2D4 /* Supporting Files */,
 			);
 			path = TesteiOSv2;
@@ -169,6 +181,19 @@
 				971FB83C21A6208200609AF7 /* Info.plist */,
 			);
 			path = TesteiOSv2UITests;
+			sourceTree = "<group>";
+		};
+		977058D321ADB4780006A5C6 /* Statement */ = {
+			isa = PBXGroup;
+			children = (
+				977058D421ADB49E0006A5C6 /* StatementViewController.swift */,
+				977058D621ADB4B90006A5C6 /* StatementInteractor.swift */,
+				977058D821ADB4C30006A5C6 /* StatementModels.swift */,
+				977058DA21ADB4CD0006A5C6 /* StatementPresenter.swift */,
+				977058DC21ADB4D50006A5C6 /* StatementRouter.swift */,
+				977058DE21ADB4E10006A5C6 /* StatementWorker.swift */,
+			);
+			path = Statement;
 			sourceTree = "<group>";
 		};
 		97BDB51B21A725E2003AB2D4 /* Models */ = {
@@ -198,6 +223,7 @@
 		97BDB51E21A72610003AB2D4 /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
+				977058D321ADB4780006A5C6 /* Statement */,
 				97BDB52121A72825003AB2D4 /* Login */,
 			);
 			path = Scenes;
@@ -345,7 +371,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				971FB82521A6208200609AF7 /* LaunchScreen.storyboard in Resources */,
-				971FB82221A6208200609AF7 /* Assets.xcassets in Resources */,
+				97BDB53D21A73C70003AB2D4 /* Assets.xcassets in Resources */,
 				971FB82021A6208000609AF7 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -444,12 +470,18 @@
 				97BDB52821A72AFE003AB2D4 /* LoginModels.swift in Sources */,
 				97BDB52E21A72B2A003AB2D4 /* LoginWorker.swift in Sources */,
 				97BDB52C21A72B17003AB2D4 /* LoginRouter.swift in Sources */,
+				977058D721ADB4B90006A5C6 /* StatementInteractor.swift in Sources */,
 				97BDB53021A72C11003AB2D4 /* User.swift in Sources */,
+				977058D521ADB49E0006A5C6 /* StatementViewController.swift in Sources */,
 				971FB81B21A6208000609AF7 /* AppDelegate.swift in Sources */,
 				97BDB52621A72AED003AB2D4 /* LoginInteractor.swift in Sources */,
+				977058D921ADB4C30006A5C6 /* StatementModels.swift in Sources */,
 				97BDB53821A7306B003AB2D4 /* ServiceWorker.swift in Sources */,
+				977058DD21ADB4D50006A5C6 /* StatementRouter.swift in Sources */,
 				97BDB53221A72CCA003AB2D4 /* ServiceAPI.swift in Sources */,
+				977058DB21ADB4CD0006A5C6 /* StatementPresenter.swift in Sources */,
 				97BDB52A21A72B08003AB2D4 /* LoginPresenter.swift in Sources */,
+				977058DF21ADB4E10006A5C6 /* StatementWorker.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
